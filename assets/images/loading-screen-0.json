@@ -1,0 +1,111 @@
+{
+  "frames": {
+    "loading-filler-bg": {
+      "frame": {
+        "x": 4,
+        "y": 4,
+        "w": 605,
+        "h": 206
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 206
+      },
+      "sourceSize": {
+        "w": 605,
+        "h": 206
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "loading-filler": {
+      "frame": {
+        "x": 4,
+        "y": 218,
+        "w": 605,
+        "h": 206
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 605,
+        "h": 206
+      },
+      "sourceSize": {
+        "w": 605,
+        "h": 206
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ultimate-gaming-text": {
+      "frame": {
+        "x": 4,
+        "y": 432,
+        "w": 291,
+        "h": 67
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 291,
+        "h": 67
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 67
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "poweredBy": {
+      "frame": {
+        "x": 303,
+        "y": 432,
+        "w": 289,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 0,
+        "w": 289,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 292,
+        "h": 74
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "loading-screen-0.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 613,
+      "h": 510
+    },
+    "scale": 1
+  }
+}

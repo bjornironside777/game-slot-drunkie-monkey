@@ -1,0 +1,347 @@
+{
+  "introTextDesktop": "5.000X’E KADAR KAZAN",
+  "introTextMobile": "5.000X’E KADAR KAZAN",
+  "introSkipBtn":"VIDEOYU ATLA",
+  "paytable": {
+    "page1": { 
+      "panelTitle":"Oyun Bilgileri",
+      "title": "OYUN KURALLARI",
+      "tf0": "Tüm semboller, yatay veya dikey olarak\nbağlanan minimum 5 sembolden oluşan \nbloklar halinde ödeme yapar. Oyun 7x7\nsembollerden oluşan bir ızgara üzerinde oynanır.",
+      "item2": "Bu SCATTER sembolüdür.\nSCATTER sembolü tüm makaralarda görünür."
+    },
+    "page2": {
+      "title": "\nTAKMA ÖZELLİĞİ",
+      "tf0": "TAKMA ÖZELLİĞİ, her döndürmeden sonra kazanan kombinasyonların\n ödeneceği ve tüm kazanan sembollerin kaybolacağı anlamına gelir.\n Kalan semboller ekranın alt kısmına düşer\n ve boş konumlar, yukarıdan gelen\nsembollerle değiştirilir.",
+      "tf1": "Takma sonucunda başka kazanan kombinasyon\n görünmeyene kadar yuvarlanma devam edecek. Olası yuvarlanma sayısında\nbir sınır yok.",
+      "tf2": "Temel dönüşten kaynaklanan tüm\n taklalar oynandıktan sonra tüm kazançlar oyuncunun bakiyesine eklenir.\n",
+      "title2": "\nÇOĞALTAN NOKTALAR ÖZELLİĞİ\n",
+      "tf3": "Kazanan bir sembol patladığında ızgaradaki yerini işaretler.\nBir sembol aynı noktada ikinci kez patladıktan sonra noktaya bir çarpan eklenir, \n: 1x2'den başlayarak ve her defasında bir kez daha ikiye katlanır sembolü\nen fazla x128'e kadar patlar.\n Çarpan, daha fazla çarpan varsa\n üzerine gelen tüm kazanan kombinasyonlara uygulanır. \naynı kazanan kombinasyon, birbirlerini artırıyorlar.",
+      "tf4": "Temel oyunda çarpanlarla\n tüm işaretli noktalar yuvarlanma sırasının sonuna kadar sürer ve\nbaşka yuvarlanma kalmadığında temizlenir.",
+      "title3": "\nÜCRETSİZ DÖNÜŞLER\n",
+      "tf5": "Sırasıyla 10, 12, 15, 20 veya 30 bedava dönüş\nkazanmak için ekranın herhangi bir yerinde 3, 4, 5\n,6 veya 7 SCATTER sembolüne basın. FREE SPINS turu\n sırasında işaretlenen noktalar ve\nçarpanları turun sonuna kadar yerinde kalır ve tüm\n bedava dönüşlerdeki sonraki taklalarla artabilir.",
+      "tf6": "Ekranın herhangi bir yerinde tur sırasında\n3, 4, 5, 6 veya 7 SCATTER sembolüne basarak\nsırasıyla 10, 12, 15, 20 veya 30 ek bedava dönüş kazanın.",
+      "tf7": "Özellik sırasında özel makaralar devrede."
+    },
+   "page3": {
+      "title": "MAKS KAZANÇ\n",
+      "tf0": "Hem temel oyunda hem de ücretsiz döndürmede maksimum kazanç\nmiktarı 5.000x bahisle sınırlıdır.\n Bir ÜCRETSİZ DÖNÜŞ ROUND'un toplam\nkazancı 5.000x bahise ulaşırsa tur hemen sona erer, galibiyet\n verilir ve kalan tüm ücretsiz çevirmeler kaybedilir.",
+      "title2": "BEDAVA DÖNÜŞLER SATIN ALIN\n",
+      "tf1": "ÜCRETSİZ DÖNDÜRME YUVARLAĞI, mevcut toplam bahsin 100 katı karşılığında\n satın alınarak temel oyundan anında tetiklenebilir.\nÜCRETSİZ DÖNÜŞLER turunu satın alırken, 3, 4, 5,\n 6 veya 7'ye ulaşabilirsiniz.\n SCATTER sembolleri rastgele."
+    },
+    "page4": {
+      "title": "OYUN KURALLARI",
+      "tf0": "Yüksek volatiliteye sahip oyunlar kısa sürede\n ortalamanın altında kazanç sağlayabilir. \nBu aralıkta\n birden fazla büyük kazanç elde etme olasılığı yüksektir.",
+      "tf1": "Semboller her yerde ödeme yapar.\nTüm kazançlar temel bahisle çarpılır.",
+      "tf2": "Tüm değerler gerçek jeton kazançlarına göre ifade edilir.\nBirden fazla sembolle kazanıldığında, tüm kazançlar\n toplam kazanca eklenir.",
+      "tf3": "Oyuncuya tur tamamlandıktan sonra bedava dönüşler verilir.",
+      "tf4": "Geçmişteki Freespins'in toplam kazancı, serinin toplam kazancını\n içermektedir.",
+      "tf5": "Bu oyunun teorik RTP'si %96.62",
+      "tfMinBet": "MİNİMUM BAHİS: ",
+      "tfMaxBet": "MAKSİMUM BAHİS: ",
+      "tf7": "Arıza tüm ödemeleri ve oyunları geçersiz kılar."
+    },
+    "page5": {
+      "title": "NASIL OYNANIR",
+      "tf0": "Bahis değerini değiştirmek ve bahis menüsünü açmak için",
+      "textCombined1": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "veya",
+        "icon2": "btn-bet-up-normal",
+        "part2": "düğmelerine basın."
+      },
+      "tf1": "Oynamak istediğiniz bahsi seçin.",
+      "tf2": "ANA OYUN ARAYÜZÜ",
+      "textCombined2": {
+        "icon1": "btn-settings",
+        "part1": " Ayarlar menüsünü açar ve oyunun\nnasıl oynandığını etkileyen ayarları içerir."
+      },
+      "tf3": "",
+      "textCombined3": {
+        "icon1": "btn-info",
+        "part1": "Bilgi sayfasını açar."
+      },
+      "tf4": "BALANS ve TOPLAM BAHİS etiketleri mevcut bakiyeyi ve toplam bahsi\ngörüntüler.",
+      "textCombined4": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "veya",
+        "icon2": "btn-bet-up-normal",
+        "part2": "Düğmelerini kullanarak mevcut bahsi artırabilir\n"
+      },
+      "tf11": "Maksimum kazanç miktarı bahsin 5000 katı ile sınırlıdır.",
+      "tf12": "Bir turda en fazla 4 DP elde edilir ve geri kalan tüm özellikler kaybolur.",
+      "tf5": "veya azaltabilir, bahis ayarlarını yapmak.",
+      "tf6": "Bahisi yukarı veya aşağı hareket ettirmek ve bahis menüsünü açmak için\ndüğmeleri kullanabilir, bahis ayarlarını değiştirebilirsiniz.",
+      "tf7": "",
+      "textCombined5": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "Oyunu başlatır"
+      }
+    },
+    "page6": {
+      "title": "AYARLAR MENÜSÜ",
+      "tf0": "GİRİŞ EKRANI - giriş ekranını açar ve kapatır\nORTAM SESİ - oyundaki ortam sesi ve müziği açıp kapatır\nSES EFEKTLERİ - oyunun ses efektlerini açar ve kapatır\nOYUN GEÇMİŞİ - oyun geçmişi sayfasını açar",
+      "tf1": "BİLGİ EKRANI",
+      "textCombined1": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "ve",
+        "icon2": "btn-bet-up-normal",
+        "part2": "bilgi sayfaları arasında gezinin."
+      }
+    }
+  },
+ "paytableDesktop": {
+    "page1": {
+      "panelTitle":"Oyun Bilgileri",
+      "title": "OYUN KURALLARI",
+      "tf0": "Tüm semboller, yatay veya dikey olarak birbirine bağlı en az 5 sembolden oluşan bloklarda \nödeme yapar.Oyun, 7x7 sembol ızgarasında oynanır.",
+      "item2": "Bu SCATTER sembolüdür.\nSCATTER sembolü tüm makaralarda görünür."
+    },
+    "page2": {
+      "title": "\nTAKMA ÖZELLİĞİ",
+      "tf0": "TAKMA ÖZELLİĞİ, her döndürmeden sonra kazanan kombinasyonların ödeneceği ve tüm kazanan\nsembollerin kaybolacağı anlamına gelir.\nKalan semboller ekranın alt kısmına düşer ve boş konumlar, yukarıdan gelen sembollerle değiştirilir.",
+      "tf1": "Takma sonucunda başka kazanan kombinasyon görünmeyene kadar yuvarlanma devam edecek. \nOlası yuvarlanma sayısında bir sınır yok.",
+      "tf2": "Temel dönüşten kaynaklanan tüm\n taklalar oynandıktan sonra tüm kazançlar oyuncunun bakiyesine eklenir.\n",
+      "title2": "\nÇOĞALTAN NOKTALAR ÖZELLİĞİ\n",
+      "tf3": "Kazanan bir sembol patladığında ızgaradaki yerini işaretler.Bir sembol aynı noktada ikinci kez patladıktan \nsonra noktaya bir çarpan eklenir : 1x2'den başlayarak ve her defasında bir kez daha ikiye katlanır sembolü\nen fazla x128'e kadar patlar.Çarpan, daha fazla çarpan varsa üzerine gelen tüm kazanan kombinasyonlara uygulanır.\naynı kazanan kombinasyon, birbirlerini artırıyorlar.",
+      "tf4": "Temel oyunda çarpanlarla\n tüm işaretli noktalar yuvarlanma sırasının sonuna kadar sürer ve\nbaşka yuvarlanma kalmadığında temizlenir.",
+      "title3": "\nÜCRETSİZ DÖNÜŞLER\n",
+      "tf5": "Sırasıyla 10, 12, 15, 20 veya 30 bedava dönüş kazanmak için ekranın herhangi bir yerinde 3, 4, 5 ,6 veya 7 SCATTER sembolüne basın.\nFREE SPINS turu sırasında işaretlenen noktalar ve çarpanları turun sonuna kadar yerinde kalır ve tüm\nbedava dönüşlerdeki sonraki taklalarla artabilir.",
+      "tf6": "Ekranın herhangi bir yerinde tur sırasında 3, 4, 5, 6 veya 7 SCATTER sembolüne\nbasarak sırasıyla 10, 12, 15, 20 veya 30 ek bedava dönüş kazanın.",
+      "tf7": "Özellik sırasında özel makaralar devrede."
+    },
+    "page3": {
+      "title": "MAKS KAZANÇ",
+      "tf0": "Hem temel oyunda hem de ücretsiz döndürmede maksimum kazanç\nmiktarı 5.000x bahisle sınırlıdır.\n Bir ÜCRETSİZ DÖNÜŞ ROUND'un toplam\nkazancı 5.000x bahise ulaşırsa tur hemen sona erer, galibiyet\n verilir ve kalan tüm ücretsiz çevirmeler kaybedilir.",
+      "title2": "BEDAVA DÖNÜŞLER SATIN ALIN\n",
+      "tf1": "ÜCRETSİZ DÖNDÜRME YUVARLAĞI, mevcut toplam bahsin 100 katı karşılığında\n satın alınarak temel oyundan anında tetiklenebilir.\nÜCRETSİZ DÖNÜŞLER turunu satın alırken, 3, 4, 5,\n 6 veya 7'ye ulaşabilirsiniz.\n SCATTER sembolleri rastgele."
+    },
+    "page4": {
+      "title": "OYUN KURALLARI",
+      "tf0": "Yüksek volatiliteye sahip oyunlar kısa sürede\n ortalamanın altında kazanç sağlayabilir. \nBu aralıkta\n birden fazla büyük kazanç elde etme olasılığı yüksektir.",
+      "tf1": "Semboller her yerde ödeme yapar.\nTüm kazançlar temel bahisle çarpılır.",
+      "tf2": "Tüm değerler gerçek jeton kazançlarına göre ifade edilir.\nBirden fazla sembolle kazanıldığında, tüm kazançlar\n toplam kazanca eklenir.",
+      "tf3": "Oyuncuya tur tamamlandıktan sonra bedava dönüşler verilir.",
+      "tf4": "Geçmişteki Freespins'in toplam kazancı, serinin toplam kazancını\n içermektedir.",
+      "tf5": "Bu oyunun teorik RTP'si %96.62",
+      "tfMinBet": "MİNİMUM BAHİS: ",
+      "tfMaxBet": "MAKSİMUM BAHİS: ",
+      "tf7": "Arıza tüm ödemeleri ve oyunları geçersiz kılar."
+    },
+    "page5": {
+      "title": "NASIL OYNANIR",
+      "textCombined1": {
+        "part1": "Bahis değerini değiştirmek ve bahis menüsünü açmak için",
+        "icon1": "btn-bet-down-normal",
+        "part2": "veya",
+        "icon2": "btn-bet-up-normal",
+        "part3": "düğmelerine tıklayın."
+      },
+      "tf0": "Oynamak istediğiniz bahsi seçin.",
+      "tf1": "ANA OYUN ARAYÜZÜ",
+      "textCombined2": {
+        "icon1": "btn-settings",
+        "part1": " Ayarlar menüsünü açar ve oyunun nasıl oynandığını etkileyen ayarları içerir."
+      },
+      "textCombined3": {
+        "icon1": "btn-info",
+        "part1": "Bilgi sayfasını açar."
+      },
+      "tf2": "BALANS ve TOPLAM BAHİS etiketleri mevcut bakiyeyi ve toplam bahsi\ngörüntüler.",
+      "textCombined4": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "veya",
+        "icon2": "btn-bet-up-normal",
+        "part2": "Düğmelerini kullanarak mevcut bahsi artırabilir veya azaltabilir, bahis ayarlarını yapmak."
+      },
+      "tf11": "Maksimum kazanç miktarı bahsin 5000 katı ile sınırlıdır.",
+      "tf12": "Bir turda en fazla 4 DP elde edilir ve geri kalan tüm özellikler kaybolur.",
+      "tf3": "Bahislerinizi değiştirebileceğiniz bahis menüsünü açın.",
+      "textCombined5": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "Oyunu başlatır."
+      }
+    },
+    "page6": {
+      "title": "AYARLAR MENÜSÜ",
+      "tf0": "GİRİŞ EKRANI - giriş ekranını açar ve kapatır\n\nORTAM - oyundaki ortam sesi ve müziği açar ve kapatır\n\nSES EFEKTLERİ - oyunun ses efektlerini açar ve kapatır\n\nOYUN GEÇMİŞİ - oyun geçmişi sayfasını açar",
+      "tf1": "BİLGİ EKRANI",
+      "textCombined1": {
+        "icon1": "btn-bet-down-normal",
+        "part1": "ve",
+        "icon2": "btn-bet-up-normal",
+        "part2": "bilgi sayfaları arasında gezinin."
+      }
+    }
+  },
+  "systemSettings": {
+    "title": "SİSTEM AYARLARI",
+    "switchModule": {
+      "switch_module_1": {
+        "tf": "HIZLI SPİN",
+        "desc": "TOPLAM SPİN SÜRESİNİ AZALTARAK DAHA HIZLI OYNA"
+      },
+      "switch_module_2": {
+        "tf": "PİL TASARRUFU",
+        "desc": "ANİMASYON HIZINI AZALTARAK PİL ÖMRÜNÜ UZAT"
+      },
+      "switch_module_3": {
+        "tf": "ORTAM MÜZİĞİ",
+        "desc": "OYUN MÜZİĞİNİ AÇ/KAPAT"
+      },
+      "switch_module_4": {
+        "tf": "SES EFEKTLERİ",
+        "desc": "OYUN SESLERİNİ AÇ/KAPAT"
+      },
+      "switch_module_5": {
+        "tf": "GİRİŞ EKRANI",
+        "desc": "GİRİŞ EKRANI"
+      }
+    },
+    "betSettings": {
+      "tfTotalBet": "BAHİS"
+    },
+    "linkModule": {
+      "tfGameHistory":"Oyun Geçmişim",
+      "tfHome": "ANASAYFA"
+    },
+    "tfSettings": "GENEL AYARLAR",
+    "tfBetSettings": "BAHİS AYARLARI"
+  },
+  "adjustBet": {
+    "title": "BAHİS ÇARPANI",
+    "tfBet": "BAHİS",
+    "tfCoinValue": "JETON DEĞERİ",
+    "tfTotalBet": "BAHİS",
+    "btnMax": "MAKSİMUM BAHİS"
+  },
+  "history": {
+    "title": "GEÇMİŞ",
+    "tfdate": "TARİH",
+    "tftotalBet": "BAHİS",
+    "tfwin": "KAZANÇ",
+    "tfbalance": "BAKİYE",
+    "nohistoryentries": "Geçmiş kaydı yok"
+  },
+  "autoSpin": {
+    "title": "Otomatik Oynama Ayarları",
+    "tfAutoPlay": "Otomatik",
+    "tfAutoPlayStop": "Durdurma Ayaları",
+    "tfSpinSettings":"Oynama Ayarları",
+    "tfTurboSpin": "TURBO",
+    "tfSkipScreen": "EKRANLARI GEÇ",
+    "tfNumber": "OTO SPİN SAYISI",
+    "tfStop": "OTOMATİK SPİNİ DURDUR",
+    "tfCheckbox1": "Herhangi bir kazançta",
+    "tfCheckbox2": "Bonus oyunu kazanıldığında",
+    "tfCheckbox3": "Tek bir kazanç belirlenen\nmiktarı aştığında",
+    "tfCheckbox4": "Nakit bakiyesi belirli bir\nmiktarda arttığında",
+    "tfCheckbox5": "Nakit bakiyesi belirli bir\nmiktarda azaldığında",
+    "tfInputPlaceHolder": "Tutar girin",
+    "tfConfirm": "OTOMATİK BAŞLA"
+  },
+  "freeSpins": {
+    "buy": "FREE SPIN\nSATIN AL",
+    "youHaveWon": "KAZANDINIZ",
+    "youHaveLeft": "KALAN",
+    "in":"",
+    "freeSpin": "FREE SPIN",
+    "freeSpinEnd":"FREE SPINDE",
+    "left": "KALAN\nFREE SPIN",
+    "pressAny": "DEVAM ETMEK İÇİN TIKLA"
+  },
+  "doubleChance": {
+    "bet": "BAHİS",
+    "double": "İKİ KAT",
+    "description": "ÖZELLİK\nKAZANMA ŞANSI",
+    "doubleChance": "İKİ KAT ŞANS"
+  },
+  "bonusSpins": {
+    "tfTitle": "Ücretsiz Bonus",
+    "tfBonusReceived1": "",
+    "tfBonusReceived2": "Adet Spin Kazandınız!",
+    "tfBonusLeft1": "Kalan Spin Sayınız",
+    "tfBonusLeft2": "!",
+    "tfBonusCompleted": "Spinlerinizi Tamamladınız!",
+    "tfBonusCompletedMobile": "Spinlerinizi\nTamamladınız!",
+    "tfBonusMessage": "Bonus spinlerinizi, şimdi kullanabilir veya sona erme\nsüresine kadar daha sonra kullanmayı tercih edebilirsiniz.",
+    "tfBonusMessageMobile": "Bonus spinlerinizi, şimdi kullanabilir veya sona\nerme süresine kadar daha sonra kullanmayı\ntercih edebilirsiniz.",
+    "tfExpiresIn": "SONA ERME SÜRESİ:",
+    "tfDays": "GÜN",
+    "tfDay": "GÜN",
+    "tfHours": "SAAT",
+    "tfHour": "SAAT",
+    "tfPlayLater": "DAHA SONRA OYNA",
+    "tfPlayNow": "ŞİMDİ OYNA",
+    "tfFreeBonus": "ÜCRETSİZ BONUS",
+    "tfRemaining": "Kalan",
+    "tfEarning": "KAZANÇ",
+    "tfTotalEarnings": "TOPLAM KAZANÇ",
+    "tfContinue": "DEVAM ET"
+  },
+  "errorMessages": {
+    "NO_RUNNING_ROUND_FOUND": "AKTİF TUR BULUNAMADI",
+    "NO_PLACED_BET_FOUND": "BAHİS YAPILMADI",
+    "USER_DOES_NOT_EXISTS": "KULLANICI BULUNAMADI",
+    "INVALID_OPERATOR_ID": "GEÇERSİZ OPERATÖR ID'Sİ",
+    "INVALID_CURRENCY_CODE": "GEÇERSİZ PARA BİRİMİ",
+    "OPERATOR_UNREACHABLE": "OPERATÖRE BAĞLANILAMIYOR",
+    "OPERATOR_UNAVAILABLE": "OPERATÖR KULLANILAMIYOR",
+    "MISSING_TOKEN": "AUTHENTICATION TOKENİ EKSİK",
+    "RGS_USER_MISSING_TOKEN": "KULLANICI İÇİN TOKEN EKSİK",
+    "USER_NOT_FOUND": "KULLANICI BULUNAMADI",
+    "USER_BLOCKED_FROM_SENDING_MESSAGES": "MESAJ GÖNDERİMİ ENGELLENDİ",
+    "EXCEEDS_MESSAGE_LENGTH": "MESAJ ÇOK UZUN",
+    "INVALID_AUTO_RATE": "GEÇERSİZ RATE DEĞERI",
+    "BET_AMOUNT_NOT_IN_LIMIT": "BAHİS MİKTARI LİMİT DIŞINDA",
+    "BLOCKED_TRANSACTION": "İŞLEM ENGELLENDİ",
+    "INVALID_TOKEN": "GEÇERSİZ KİMLİK DOĞRULAMA TOKENİ",
+    "INSUFFICIENT_FUNDS": "YETERSİZ BAKİYE",
+    "TRANSACTION_ALREADY_PROCESSED": "İŞLEM ZATEN TAMAMLANMIŞ",
+    "SERVER_SEED_NOT_FOUND": "SEED DEĞERİ BULUNAMADI",
+    "UNFINISHED_SLOT_GAME_BET_EXISTS": "TAMAMLANMAMIŞ BAHİS VAR",
+    "BASE_SLOT_GAME_BET_NOT_EXISTS": "BAHİS DEĞERİ BULUNAMADI",
+    "INVALID_GAME_ID": "GEÇERSİZ OYUN ID'Sİ",
+    "NOT_ENOUGH_BALANCE": "BAKİYE ÇOK DÜŞÜK",
+    "INVALID_TYPE": "GEÇERSİZ TÜR BELİRTİLMİŞ",
+    "INVALID_ROUND_TYPE": "GEÇERSİZ TUR TÜRÜ",
+    "INVALID_BET_DETAILS": "BAHİS DETAYLARI GEÇERSİZ",
+    "INVALID_SEED": "TOHUM DEĞERİ GEÇERSİZ",
+    "PLEASE_CONTACT_OPERATOR": "OPERATOR DESTEĞE BAŞVURUN",
+    "BET_AMOUNT_BELOW_MIN_RANGE": "BAHİS MİKTARI ÇOK DÜŞÜK",
+    "BET_AMOUNT_EXCEEDS_MAX_RANGE": "BAHİS MİKTARI ÜST LİMİTİ AŞIYOR",
+    "PREVIOUS_BET_NOT_COMPLETED": "ÖNCEKİ BAHİS TAMAMLANMADI",
+    "BET_CAN_NOT_BE_SPLITTED": "BAHİS BÖLÜNEMEZ",
+    "BET_CAN_NOT_BE_ENSURED": "BAHİS GARANTİ EDİLEMİYOR",
+    "BET_CAN_NOT_BE_DOUBLED": "BAHİS İKİYE KATLANAMAZ",
+    "CURRENCY_NOT_SUPPORTED_FOR_LINE_BET": "DESTEKLENMEYEN PARA BİRİMİ",
+    "SIGNATURE_NOT_VERIFIED": "İMZA DOĞRULAMA BAŞARISIZ",
+    "USER_IS_BLOCKED": "KULLANICI ENGELLENDİ",
+    "UNKNOWN_OPERATOR_ERROR": "OPERATÖRLE BİLİNMEYEN HATA",
+    "UNKNOWN_RGS_ERROR": "RGS'DE BİLİNMEYEN HATA",
+    "OPERATOR_NETWORK_FAILURE": "OPERATÖRLE AĞ SORUNU",
+    "INVALID_ROUND_HASH": "TUR HASH DEĞERİ GEÇERSİZ",
+    "PLEASE_CONSIDER_DENYING_OR_ACCEPTING_INSURANCE": "SİGORTAYI KABUL VEYA REDDEDİN",
+    "INVALID_MINE_COUNT": "MINE SAYIM GEÇERSİZ",
+    "USER_SESSION_EXPIRED": "OTURUM SÜRESİ DOLDU",
+    "USER_SESSION_MISSING": "OTURUM BULUNAMADI",
+    "RGS_UNREACHABLE": "RGS'E ULAŞILAMIYOR",
+    "RGS_NETWORK_FAILURE": "RGS İLE BAĞLANTI SORUNU",
+    "RGS_ERROR_CHECK_LOGS": "RGS HATASI, LOGLARI KONTROL EDİN",
+    "CURRENCY_CODE_MISSING": "PARA BİRİMİ KODU EKSİK",
+    "CONNECTION_LOST": "BAĞLANTI KESİLDİ"
+  },
+  "tfReload": "yenile",
+  "clickToPlay": "OYNAMAK İÇİN TIKLAYIN",
+  "skipVideo": "VIDEOYU ATLA",
+  "tfSpinButton": "DUR",
+  "tfWinUpTo": "SEMBOLLER EKRANIN HER YERİNDE ÖDER",
+  "tfGoodLuck": "İYİ ŞANSLAR",
+  "tfWin": "TOPLAM KAZANÇ",
+  "tfDesktopWin": "KAZANÇ",
+  "tfHoldSpace": "TURBO İÇİN DÖNDÜRME DÜĞMESİNİ BASILI TUTUN",
+  "tfHoldSpinButton": "TURBO İÇİN BASILI TUT",
+  "tfturbospin": "HIZLI SPİN",
+  "tftotalbet": "BAHİS",
+  "tfcredit": "BAKİYE",
+  "tfHoldDownSpace": "Turbo spin için boşluk\ntuşuna basılı tutun"
+}

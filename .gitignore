@@ -130,3 +130,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Compilation artifacts
+/src/**/*.d.ts
+/src/**/*.map
+/src/**/*.js

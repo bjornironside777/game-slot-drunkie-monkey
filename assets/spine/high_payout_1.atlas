@@ -1,0 +1,18 @@
+high_payout_1.webp
+size:267,267
+filter:Linear,Linear
+pma:true
+Light
+bounds:2,36,84,84
+offsets:4,3,92,90
+Top frame
+bounds:88,58,152,53
+back fram
+bounds:139,113,152,106
+rotate:90
+bottle
+bounds:2,122,135,143
+offsets:1,0,137,144
+starglow1
+bounds:88,2,54,54
+offsets:4,4,62,62

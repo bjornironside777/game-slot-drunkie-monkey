@@ -1,0 +1,163 @@
+{
+    "skeleton": {
+        "hash": "+uG0qrOcTwI",
+        "spine": "4.1.24",
+        "x": -140.06,
+        "y": -97.5,
+        "width": 280.11,
+        "height": 195,
+        "images": "",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "antic_anim",
+            "parent": "root",
+            "y": 0.01,
+            "scaleX": 1.4006,
+            "scaleY": 0.975
+        },
+        {
+            "name": "antic_anim2",
+            "parent": "root",
+            "y": 0.01,
+            "scaleX": 1.4006,
+            "scaleY": 0.975
+        }
+    ],
+    "slots": [
+        {
+            "name": "G_1",
+            "bone": "antic_anim",
+            "attachment": "images/G_"
+        },
+        {
+            "name": "G_2",
+            "bone": "antic_anim2",
+            "color": "f9094bff",
+            "blend": "additive"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "G_1": {
+                    "images/G_": {
+                        "y": -0.01,
+                        "width": 200,
+                        "height": 200,
+                        "sequence": {
+                            "count": 30
+                        }
+                    }
+                },
+                "G_2": {
+                    "images/G_": {
+                        "y": -0.01,
+                        "width": 200,
+                        "height": 200,
+                        "sequence": {
+                            "count": 30
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "win": {
+            "slots": {
+                "G_2": {
+                    "rgba": [
+                        {
+                            "color": "ffffff00",
+                            "curve": [
+                                0.167,
+                                1,
+                                0.333,
+                                0.97,
+                                0.167,
+                                1,
+                                0.333,
+                                0.02,
+                                0.167,
+                                1,
+                                0.333,
+                                0.02,
+                                0.167,
+                                0,
+                                0.333,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "f70606ff",
+                            "curve": [
+                                0.667,
+                                0.97,
+                                0.833,
+                                1,
+                                0.667,
+                                0.02,
+                                0.833,
+                                1,
+                                0.667,
+                                0.02,
+                                0.833,
+                                1,
+                                0.667,
+                                1,
+                                0.833,
+                                0
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "name": "images/G_"
+                        }
+                    ]
+                }
+            },
+            "attachments": {
+                "default": {
+                    "G_1": {
+                        "images/G_": {
+                            "sequence": [
+                                {
+                                    "mode": "loop",
+                                    "index": 14,
+                                    "delay": 0.0333
+                                },
+                                {
+                                    "time": 0.5333,
+                                    "mode": "once"
+                                }
+                            ]
+                        }
+                    },
+                    "G_2": {
+                        "images/G_": {
+                            "sequence": [
+                                {
+                                    "mode": "loop",
+                                    "index": 15,
+                                    "delay": 0.0333
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

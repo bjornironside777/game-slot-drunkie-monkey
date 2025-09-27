@@ -1,0 +1,183 @@
+{
+  "frames": {
+    "bonus-spins-status": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 823,
+        "h": 75
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 64,
+        "y": 0,
+        "w": 823,
+        "h": 75
+      },
+      "sourceSize": {
+        "w": 943,
+        "h": 85
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "bonus-brand-logo": {
+      "frame": {
+        "x": 2,
+        "y": 829,
+        "w": 77,
+        "h": 27
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 27
+      },
+      "sourceSize": {
+        "w": 77,
+        "h": 27
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "bonus-popup-bcg": {
+      "frame": {
+        "x": 81,
+        "y": 2,
+        "w": 940,
+        "h": 768
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 940,
+        "h": 768
+      },
+      "sourceSize": {
+        "w": 940,
+        "h": 768
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "bonus-play-later-btn": {
+      "frame": {
+        "x": 83,
+        "y": 774,
+        "w": 330,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 330,
+        "h": 74
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "bonus-play-now-btn": {
+      "frame": {
+        "x": 417,
+        "y": 774,
+        "w": 330,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 330,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 330,
+        "h": 74
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "bonus-popup-bcg-mobile": {
+      "frame": {
+        "x": 1025,
+        "y": 2,
+        "w": 362,
+        "h": 511
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 511
+      },
+      "sourceSize": {
+        "w": 362,
+        "h": 511
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "bonus-close-btn": {
+      "frame": {
+        "x": 751,
+        "y": 774,
+        "w": 24,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 6,
+        "w": 24,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 36,
+        "h": 36
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "bonus-spins.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1389,
+      "h": 858
+    },
+    "scale": 1
+  }
+}

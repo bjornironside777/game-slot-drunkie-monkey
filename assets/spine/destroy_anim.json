@@ -1,0 +1,114 @@
+{
+    "skeleton": {
+        "hash": "kkj+DHxf5bA",
+        "spine": "4.1.24",
+        "x": -149.95,
+        "y": -149.82,
+        "width": 300,
+        "height": 300,
+        "images": "./image/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "effects_bone",
+            "parent": "root",
+            "x": 0.04,
+            "y": -0.22,
+            "color": "fbaa04ff"
+        }
+    ],
+    "slots": [
+        {
+            "name": "B_1",
+            "bone": "effects_bone",
+            "attachment": "B_"
+        }
+    ],
+    "skins": [
+        {
+            "name": "default",
+            "attachments": {
+                "B_1": {
+                    "B_": {
+                        "type": "mesh",
+                        "uvs": [
+                            1,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            1,
+                            0
+                        ],
+                        "triangles": [
+                            1,
+                            2,
+                            3,
+                            1,
+                            3,
+                            0
+                        ],
+                        "vertices": [
+                            150,
+                            -149.6,
+                            -150,
+                            -149.6,
+                            -150,
+                            150.4,
+                            150,
+                            150.4
+                        ],
+                        "hull": 4,
+                        "sequence": {
+                            "count": 20
+                        },
+                        "edges": [
+                            0,
+                            2,
+                            2,
+                            4,
+                            4,
+                            6,
+                            0,
+                            6
+                        ],
+                        "width": 300,
+                        "height": 300
+                    }
+                }
+            }
+        }
+    ],
+    "animations": {
+        "destroy": {
+            "bones": {
+                "effects_bone": {
+                    "translate": [
+                        {
+                            "time": 1
+                        }
+                    ]
+                }
+            },
+            "attachments": {
+                "default": {
+                    "B_1": {
+                        "B_": {
+                            "sequence": [
+                                {
+                                    "mode": "loop",
+                                    "delay": 0.05
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
