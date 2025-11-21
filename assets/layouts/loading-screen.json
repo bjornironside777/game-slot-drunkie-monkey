@@ -8,6 +8,48 @@
             "constructorParams":[
               {
                 "cls":"starling.textures.Texture",
+                "textureName":"mobile-mockup"
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "name":"mobile-mockup",
+              "pivotX":540,
+              "pivotY":960,
+              "x":540,
+              "y":960
+            }
+          },
+          {
+            "cls":"starling.display.Quad",
+            "constructorParams":[
+              {
+                "name":"width",
+                "type":"Number",
+                "value":100
+              },
+              {
+                "name":"height",
+                "type":"Number",
+                "value":100
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "alhpa":0,
+              "color":"#030E1E",
+              "name":"backgroundColor",
+              "pivotX":50,
+              "pivotY":50,
+              "x":540,
+              "y":960
+            }
+          },
+          {
+            "cls":"starling.display.Image",
+            "constructorParams":[
+              {
+                "cls":"starling.textures.Texture",
                 "textureName":"loading-screen-bcg"
               }
             ],
@@ -15,9 +57,89 @@
             "params":{
               "name":"background",
               "pivotX":960,
-              "pivotY":540,
+              "x":540
+            }
+          },
+          {
+            "children":[],
+            "cls":"starling.display.Sprite",
+            "customParams":{},
+            "params":{
+              "name":"waterRippleContainer",
               "x":540,
-              "y":960
+              "y":758.5
+            }
+          },
+          {
+            "cls":"starling.display.Image",
+            "constructorParams":[
+              {
+                "cls":"starling.textures.Texture",
+                "textureName":"loading-logo"
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "name":"logo",
+              "pivotX":159,
+              "pivotY":54,
+              "scaleX":1.35,
+              "scaleY":1.35,
+              "x":540,
+              "y":692
+            }
+          },
+          {
+            "cls":"starling.display.Image",
+            "constructorParams":[
+              {
+                "cls":"starling.textures.Texture",
+                "textureName":"ultimate-text"
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "name":"ultimateTextSprite",
+              "pivotX":307,
+              "pivotY":24,
+              "scaleX":1.15,
+              "scaleY":1.15,
+              "x":540,
+              "y":830
+            }
+          },
+          {
+            "cls":"starling.text.TextField",
+            "constructorParams":[
+              {
+                "value":200
+              },
+              {
+                "value":100
+              },
+              {
+                "value":""
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "format":{
+                "cls":"starling.text.TextFormat",
+                "customParams":{},
+                "params":{
+                  "color":"#ffffff",
+                  "font":"Urbanist Bold",
+                  "size":33
+                }
+              },
+              "height":0.002,
+              "width":0.002,
+              "pivotX":0.001,
+              "pivotY":0.001,
+              "name":"loadingText",
+              "text":"LOADING...",
+              "x":540,
+              "y":1000
             }
           },
           {
@@ -28,71 +150,80 @@
             },
             "params":{
               "name":"progressBar",
-              "pivotX":307,
-              "pivotY":103,
-              "x":540,
-              "y":750
-            }
-          },
-          {
-            "cls":"starling.display.Image",
-            "constructorParams":[
-              {
-                "cls":"starling.textures.Texture",
-                "textureName":"poweredBy"
-              }
-            ],
-            "customParams":{},
-            "params":{
-              "name":"poweredBy",
-              "pivotX":146,
-              "pivotY":34,
-              "x":690,
-              "y":910
-            }
-          },
-          {
-            "cls":"starling.display.Image",
-            "constructorParams":[
-              {
-                "cls":"starling.textures.Texture",
-                "textureName":"ultimate-gaming-text"
-              }
-            ],
-            "customParams":{},
-            "params":{
-              "name":"loadingText",
-              "pivotX":145,
+              "pivotX":512,
               "pivotY":33.5,
-              "scaleX":2,
-              "scaleY":2,
+              "scaleX":0.8,
+              "scaleY":0.8,
               "x":540,
-              "y":1400
+              "y":1073
             }
           },
           {
-            "cls":"starling.display.Quad",
+            "cls":"starling.text.TextField",
             "constructorParams":[
               {
-                "name":"width",
-                "type":"Number",
-                "value":292
+                "value":200
               },
               {
-                "name":"height",
-                "type":"Number",
-                "value":74
+                "value":100
+              },
+              {
+                "value":""
               }
             ],
             "customParams":{},
             "params":{
-              "alhpa":0,
-              "color":"black",
-              "name":"poweredByMask",
-              "pivotX":0,
-              "pivotY":37,
-              "x":544,
-              "y":912
+              "format":{
+                "cls":"starling.text.TextFormat",
+                "customParams":{},
+                "params":{
+                  "color":"#ffffff",
+                  "font":"Urbanist Bold",
+                  "size":20
+                }
+              },
+              "height":0.002,
+              "width":0.002,
+              "pivotX":0.001,
+              "pivotY":0.001,
+              "name":"loadingPercentage",
+              "text":"%0",
+              "x":914,
+              "y":1073
+            }
+          },
+          {
+            "cls":"starling.display.Image",
+            "constructorParams":[
+              {
+                "cls":"starling.textures.Texture",
+                "textureName":"spiral-gradient"
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "name":"spiralAbove",
+              "x":540,
+              "y":-500,
+              "pivotX":940,
+              "pivotY":940
+            }
+          },
+          {
+            "cls":"starling.display.Image",
+            "constructorParams":[
+              {
+                "cls":"starling.textures.Texture",
+                "textureName":"spiral-gradient"
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "name":"spiralBelow",
+              "x": 540,
+              "y": 2420,
+              "pivotX":940,
+              "pivotY":940
             }
           }
         ],
@@ -104,6 +235,31 @@
       },
       {
         "children":[
+          {
+            "cls":"starling.display.Quad",
+            "constructorParams":[
+              {
+                "name":"width",
+                "type":"Number",
+                "value":100
+              },
+              {
+                "name":"height",
+                "type":"Number",
+                "value":100
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "alhpa":0,
+              "color":"#030E1E",
+              "name":"backgroundColor",
+              "pivotX":50,
+              "pivotY":50,
+              "x":960,
+              "y":540
+            }
+          },
           {
             "cls":"starling.display.Image",
             "constructorParams":[
@@ -124,76 +280,163 @@
           {
             "children":[],
             "cls":"starling.display.Sprite",
+            "customParams":{},
+            "params":{
+              "name":"waterRippleContainer",
+              "x":960,
+              "y":540
+            }
+          },
+          {
+            "cls":"starling.display.Image",
+            "constructorParams":[
+              {
+                "cls":"starling.textures.Texture",
+                "textureName":"loading-logo"
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "name":"logo",
+              "pivotX":159,
+              "pivotY":54,
+              "x":960,
+              "y":418
+            }
+          },
+          {
+            "cls":"starling.display.Image",
+            "constructorParams":[
+              {
+                "cls":"starling.textures.Texture",
+                "textureName":"ultimate-text"
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "name":"ultimateTextSprite",
+              "pivotX":307,
+              "pivotY":24,
+              "x":960,
+              "y":530
+            }
+          },
+          {
+            "cls":"starling.text.TextField",
+            "constructorParams":[
+              {
+                "value":200
+              },
+              {
+                "value":100
+              },
+              {
+                "value":""
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "format":{
+                "cls":"starling.text.TextFormat",
+                "customParams":{},
+                "params":{
+                  "color":"#ffffff",
+                  "font":"Urbanist Bold",
+                  "size":20
+                }
+              },
+              "height":0.002,
+              "width":0.002,
+              "pivotX":0.001,
+              "pivotY":0.001,
+              "name":"loadingText",
+              "text":"LOADING...",
+              "x":960,
+              "y":626
+            }
+          },
+          {
+            "children":[],
+            "cls":"starling.display.Sprite",
             "customParams":{
               "customComponentClass":"AssetsProgressBar"
             },
             "params":{
               "name":"progressBar",
-              "pivotX":303.5,
-              "pivotY":103,
-              "x":962,
-              "y":490.5
-            }
-          },
-          {
-            "cls":"starling.display.Image",
-            "constructorParams":[
-              {
-                "cls":"starling.textures.Texture",
-                "textureName":"poweredBy"
-              }
-            ],
-            "customParams":{},
-            "params":{
-              "name":"poweredBy",
-              "pivotX":146,
-              "pivotY":34,
-              "x":1118,
-              "y":650
-            }
-          },
-          {
-            "cls":"starling.display.Image",
-            "constructorParams":[
-              {
-                "cls":"starling.textures.Texture",
-                "textureName":"ultimate-gaming-text"
-              }
-            ],
-            "customParams":{},
-            "params":{
-              "name":"loadingText",
-              "pivotX":146,
-              "pivotY":34,
+              "pivotX":512,
+              "pivotY":33.5,
               "x":960,
-              "y":970
+              "y":685
             }
           },
           {
-            "cls":"starling.display.Quad",
+            "cls":"starling.text.TextField",
             "constructorParams":[
               {
-                "name":"width",
-                "type":"Number",
-                "value":292
+                "value":200
               },
               {
-                "name":"height",
-                "type":"Number",
-                "value":74
+                "value":100
+              },
+              {
+                "value":""
               }
             ],
             "customParams":{},
             "params":{
-              "alhpa":0,
-              "color":"black",
-              "name":"poweredByMask",
-              "pivotX":0,
-              "pivotY":37,
-              "x":972,
-              "y":653
+              "format":{
+                "cls":"starling.text.TextFormat",
+                "customParams":{},
+                "params":{
+                  "color":"#ffffff",
+                  "font":"Urbanist Bold",
+                  "size":20
+                }
+              },
+              "height":0.002,
+              "width":0.002,
+              "pivotX":0.001,
+              "pivotY":0.001,
+              "name":"loadingPercentage",
+              "text":"%0",
+              "x":1427,
+              "y":685
             }
-          } 
+          },
+          {
+            "cls":"starling.display.Image",
+            "constructorParams":[
+              {
+                "cls":"starling.textures.Texture",
+                "textureName":"spiral-gradient"
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "name":"spiralAbove",
+              "x":1420,
+              "y":-500,
+              "pivotX":940,
+              "pivotY":940
+            }
+          },
+          {
+            "cls":"starling.display.Image",
+            "constructorParams":[
+              {
+                "cls":"starling.textures.Texture",
+                "textureName":"spiral-gradient"
+              }
+            ],
+            "customParams":{},
+            "params":{
+              "name":"spiralBelow",
+              "x": 500,
+              "y": 1580,
+              "pivotX":940,
+              "pivotY":940
+            }
+          }
         ],
         "cls":"starling.display.Sprite",
         "customParams":{},
