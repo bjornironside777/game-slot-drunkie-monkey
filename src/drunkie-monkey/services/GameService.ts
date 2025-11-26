@@ -1217,7 +1217,9 @@ export default class GameService extends EventEmitter implements ICommonGameServ
         slotMachine.roundResult = roundResult;
         slotMachine.initialLineBet = roundResult.lineBetValue;
         slotMachine.previousRoundResult = slotMachine.getDummyRoundResult(roundResult);
-
+             if(data.Current?.Bonus ) {
+             slotMachine.bonusGameClaimdValue = data.Current.Bonus?.totalWin;
+        }
         if(data.Next.Bonus) {
             slotMachine.currentSpinResult.bonus = {
                 bonusGameid: data.Next.Bonus.id,

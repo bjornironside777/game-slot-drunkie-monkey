@@ -45,6 +45,7 @@ export default class SlotMachine extends EventEmitter {
     // RESETTABLE STATUS VARS
     public reelsStarted: boolean = false;
     public stopRequested: boolean = false;
+     public  bonusGameClaimdValue:number=0;
     public spinTimeLapsed: boolean = false;
     public bigWinShown: boolean = false;
     public round_Result: RoundResult=null;

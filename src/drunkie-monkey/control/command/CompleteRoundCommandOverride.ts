@@ -16,7 +16,7 @@ export default class CompleteRoundCommandOverride extends ControlCommand {
 
         sm.roundResult.complete = true;
         const winValue: number =  sm.roundResult.totalWinValue;
-        wallet.balance += winValue;
+        wallet.balance =sm.bonusGameShown? wallet.balance:wallet.balance+=winValue;
 
         // history.entries.unshift({
         //     datetime: Date.now(),
