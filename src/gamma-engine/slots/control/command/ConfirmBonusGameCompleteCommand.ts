@@ -11,8 +11,9 @@ export default class ConfirmBonusGameCompleteCommand extends ControlCommand {
         const sm: SlotMachine = container.resolve(SlotMachine);
         const wallet: Wallet = container.resolve(Wallet);
 
-        wallet.balance += sm.currentSpinResult.bonus.winAmount;
+        wallet.balance = wallet.balance + sm.currentSpinResult.bonus.winAmount - sm.bonusGameClaimdValue;
         sm.currentSpinResult.bonus.roundComplete = true;
+        sm.bonusGameClaimdValue = 0;
         if(sm.currentSpinResult.nextBonus) {
             sm.currentSpinResult.bonus = sm.currentSpinResult.nextBonus;
             sm.bonusGameShown = false;
