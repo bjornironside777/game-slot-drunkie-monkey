@@ -84,13 +84,17 @@ export class FreeSpinButton extends Button {
     }
 
     private onClick(): void {
-        const data: PopupData = {
+         const sm: SlotMachine = container.resolve(SlotMachine);
+        if (!sm.bonusGameStarted) {
+              const data: PopupData = {
             type: PopupType.FEATURE_BUY,
             hideOnClick: false,
             duration: -1,
             callbacks: null
         }
         new ControlEvent(UIPanelEvent.SHOW_POPUP, data).dispatch();
+        }
+      
     }
 
     public setTexts(title: string, value: string, isActive: boolean = true, isNotAlpha: boolean = true): void {

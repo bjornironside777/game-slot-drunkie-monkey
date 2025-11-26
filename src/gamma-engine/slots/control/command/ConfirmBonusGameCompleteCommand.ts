@@ -17,10 +17,11 @@ export default class ConfirmBonusGameCompleteCommand extends ControlCommand {
         if(sm.currentSpinResult.nextBonus) {
             sm.currentSpinResult.bonus = sm.currentSpinResult.nextBonus;
             sm.bonusGameShown = false;
-            sm.bonusGameStarted = false;
+          
         } else {
             sm.currentSpinResult.bonus = null;
         }
+        sm.bonusGameStarted = false;
         sm.currentBetValue = sm.initialLineBet;
 
         new ControlEvent(SlotGameEvent.SPIN_RESULT_READY).dispatch();
