@@ -1,0 +1,76 @@
+freegame_anim.webp
+size:1736,1736
+filter:Linear,Linear
+$15
+bounds:1724,1733,1,1
+buy FREE SPINS
+bounds:1724,1733,1,1
+free spin
+bounds:1724,1733,1,1
+in 15 Free spin
+bounds:1724,1733,1,1
+press any where to continue
+bounds:1724,1733,1,1
+you have won
+bounds:1724,1733,1,1
+buy new 3
+bounds:2,60,851,661
+offsets:79,68,1023,781
+buy new glow
+bounds:2,723,952,776
+offsets:34,5,1023,781
+cong 3
+bounds:2,1501,1720,233
+offsets:11,0,1731,233
+glass
+bounds:855,2,142,202
+offsets:1,5,157,208
+rotate:90
+no
+bounds:1543,1307,146,80
+rays
+bounds:956,874,344,345
+rectangle_g
+bounds:956,1221,585,166
+star/st_1
+bounds:1336,9,235,239
+offsets:4,2,256,256
+rotate:90
+star/st_10
+bounds:1098,389,235,247
+offsets:10,2,256,256
+star/st_2
+bounds:855,146,240,243
+offsets:5,7,256,256
+star/st_3
+bounds:956,638,234,249
+offsets:11,1,256,256
+rotate:90
+star/st_4
+bounds:855,391,241,245
+offsets:5,1,256,256
+star/st_5
+bounds:1302,735,235,246
+offsets:5,5,256,256
+rotate:90
+star/st_6
+bounds:1302,972,240,247
+offsets:6,4,256,256
+star/st_7
+bounds:1097,142,237,245
+offsets:9,4,256,256
+star/st_8
+bounds:1336,246,236,242
+offsets:5,3,256,256
+star/st_9
+bounds:1335,490,239,243
+offsets:6,6,256,256
+terki_text
+bounds:956,1389,750,110
+tube_light
+bounds:2,2,56,477
+offsets:5,5,66,487
+rotate:90
+yes
+bounds:1207,726,146,80
+rotate:90

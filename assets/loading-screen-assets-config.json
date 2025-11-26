@@ -1,0 +1,26 @@
+{
+  "layouts": [
+    {
+      "name": "loading-screen",
+      "url": "./layouts/loading-screen.json"
+    }
+  ],
+  "textures": [
+    {
+      "name": "loader-new",
+      "url": "./images/loading-screen-0.json"
+    },
+    {
+      "name": "loading-screen-bcg",
+      "url": "./images/loading-screen-bcg.webp"
+    }
+  ],
+  "sounds": [],
+  "spine": [],
+  "fonts": [
+    {
+      "name": "Urbanist-Bold",
+      "url": "./fonts/Urbanist-Bold.ttf"
+    }
+  ]
+}

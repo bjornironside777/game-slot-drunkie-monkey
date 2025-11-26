@@ -1,0 +1,11 @@
+# IntelliJ project files
+.idea
+*.iml
+/**/*.map
+/**/*.js
+/**/*.d.ts
+
+!engineTween.d.ts
+!engineTween.js
+!engineTween.js.map
+!GlobalMixins.d.ts

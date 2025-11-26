@@ -1,0 +1,23 @@
+spin_btn.webp
+size:634,634
+filter:Linear,Linear
+98
+bounds:175,72,7,8
+offsets:0,1,8,9
+DUR
+bounds:175,72,7,8
+offsets:0,1,8,9
+botton
+bounds:2,5,171,171
+botton backlight
+bounds:2,178,457,454
+spin hover
+bounds:175,82,110,94
+offsets:5,11,118,118
+spin reg
+bounds:175,82,110,94
+offsets:5,11,118,118
+stop hover
+bounds:461,382,77,77
+stop reg
+bounds:461,461,171,171
